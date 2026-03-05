@@ -55,3 +55,17 @@ POST http://localhost:5000/api/add-product
    MONGO_URI=your_mongodb_connection_string
 4. Run: node server.js
 5. Test using Thunder Client
+
+
+
+## Module 2: AI B2B Proposal Generator
+
+This module generates a sustainable product proposal based on company industry and budget.
+
+Features:
+- Suggests sustainable product mix
+- Allocates budget intelligently
+- Provides cost breakdown
+- Generates impact positioning summary
+- Stores proposal in MongoDB
+- Logs AI request and response
