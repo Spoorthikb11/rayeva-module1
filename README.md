@@ -69,3 +69,15 @@ Features:
 - Generates impact positioning summary
 - Stores proposal in MongoDB
 - Logs AI request and response
+
+
+
+## Module 3 – Impact Reporting Generator
+
+This module calculates sustainability impact for orders.
+
+Features:
+- Calculates plastic saved
+- Estimates carbon emissions avoided
+- Provides sustainability impact summary
+- Stores report in MongoDB
