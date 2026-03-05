@@ -1,3 +1,4 @@
+const botRoutes = require("./routes/botRoutes");
 const impactRoutes = require("./routes/impactRoutes");
 const proposalRoutes = require("./routes/proposalRoutes");
 require("dotenv").config();
@@ -13,6 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/api", proposalRoutes);
 app.use("/api", impactRoutes);
+app.use("/api", botRoutes);
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Connected"))

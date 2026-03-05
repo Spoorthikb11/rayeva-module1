@@ -81,3 +81,18 @@ Features:
 - Estimates carbon emissions avoided
 - Provides sustainability impact summary
 - Stores report in MongoDB
+
+
+
+
+## Module 4 – WhatsApp Support Bot (Architecture)
+
+This module automates customer support via WhatsApp.
+
+Features:
+- Order status responses
+- Return policy handling
+- Refund escalation
+- Conversation logging
+
+In production, Twilio WhatsApp API would connect customer messages to the backend.
